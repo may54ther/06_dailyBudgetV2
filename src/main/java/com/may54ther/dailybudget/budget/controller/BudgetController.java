@@ -22,9 +22,7 @@ import java.util.Map;
 @RequiredArgsConstructor
 public class BudgetController {
 
-    private static final Logger logger = LoggerFactory.getLogger(BudgetController.class);
     private final MessageSource messageSource;
-
     private final BudgetService budgetService;
 
     @GetMapping("/list")
